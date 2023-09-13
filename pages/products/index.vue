@@ -1,4 +1,16 @@
 <template>
+		<div>
+		<header>
+			<nav>
+				<NuxtLink to='/'>Nuxt Dojo</NuxtLink>
+				<ul>
+					<li><NuxtLink to='/'>Home</NuxtLink></li>
+					<li><NuxtLink to='/about'>About</NuxtLink></li>
+					<li><NuxtLink to='/products'>Products</NuxtLink></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
 	<h2>The product page.</h2>
 		<p>Topmast fluke gangway Corsair smartly port ye quarterdeck measured fer yer chains sheet. Jolly boat galleon pillage aft bring a spring upon her cable keel avast spyglass boatswain belaying pin. Run a shot across the bow code of conduct wherry transom broadside gun fire ship Brethren of the Coast plunder Admiral of the Black. Lee jack hang the jib Pirate Round parrel starboard Buccaneer Davy Jones' Locker Spanish Main spirits.
 
