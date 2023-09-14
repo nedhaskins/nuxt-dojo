@@ -1,7 +1,7 @@
 <script setup>
 	
 
-	definePageMeta({
+		definePageMeta({
 		layout: 'products',
 	})
 
@@ -15,9 +15,7 @@
 	<div>
 		<div class="grid grid-cols-4 gap-5">
 			<div v-for="p in products">
-
-				<!--- using a colon to data-bind -->
-				<NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
+				<ProductCard :product="p"/>
 			</div>
 		</div>
 	</div>
