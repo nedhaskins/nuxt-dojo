@@ -22,6 +22,10 @@ export default defineNuxtConfig({
       }]
     }
   },
+  runtimeConfig: {
+    currencyKey: process.env.CURRENCY_API_KEY
+    //can make a public key-value pair here if you want to make them public
+  },
   vue: {
     compilerOptions: {
       //treat all tags with a dash as custom elements
