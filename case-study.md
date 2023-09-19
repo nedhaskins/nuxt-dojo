@@ -14,3 +14,12 @@ When the products show up on the page, the data is fetched and hydrated.  Should
 
 - Putting meta values in nuxt.config.ts
 - Overriding these same values
+
+
+
+# #12 - 
+
+- Using server functions to accept post requests
+- getQuery()
+- await readBody()
+- $fetch (not useFetch) for server-side requests / API calls
