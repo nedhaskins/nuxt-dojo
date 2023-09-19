@@ -6,3 +6,11 @@ When the products show up on the page, the data is fetched and hydrated.  Should
 
 #9 - Reusable Components
 -Made a "components" folder in the root folder
+
+
+
+
+# #11 - Metadata & useHead
+
+- Putting meta values in nuxt.config.ts
+- Overriding these same values

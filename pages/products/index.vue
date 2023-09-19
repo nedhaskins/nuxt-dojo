@@ -8,7 +8,6 @@
 
 
 <template>
-
 	<div>
 		<div class="grid grid-cols-4 gap-5">
 			<div v-for="p in products">
@@ -16,19 +15,15 @@
 			</div>
 		</div>
 	</div>
-
 </template>
 
 <style lang='scss' scoped>
+	h2 {
+		color: green;
+		// font-size: 3rem;
+	}
 
-
-h2 {
-	color: green;
-	// font-size: 3rem;
-}
-
-p {
-	color: blue;
-}
-
+	p {
+		color: blue;
+	}
 </style>
